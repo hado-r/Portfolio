@@ -1,4 +1,17 @@
 
-h1 {
-  color: red;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+body {
+  background: #081b29;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width:100%;
+  padding: 29px 10%;
+  background: yellowgreen;
 }
