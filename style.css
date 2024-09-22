@@ -7,11 +7,35 @@
 }
 body {
   background: #081b29;
+  color: #ededed;
 }
 .header {
   position: fixed;
   top: 0;
   width:100%;
   padding: 29px 10%;
-  background: yellowgreen;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  z-index: 100;
+}
+.logo {
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: 3s;
+}
+.navbar a:hover,
+.navbar a.active {
+  color: #00abf0;
+
 }
