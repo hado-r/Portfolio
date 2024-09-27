@@ -182,7 +182,7 @@ span{
   position: relative;
 }
 .text-animation span::before{
-  content: "web Developer";
+  content: "UI/UX Designer";
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -195,5 +195,15 @@ span{
   border-left: 3px solid var(--bg-color);
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14 infinite);
-  
+}
+@keyframes cursor{
+  to{
+    border-left: 2px solid var(--main-color);
+  }
+}
+@keyframes words{
+  0%,
+  60%{
+    content: "UI/Ux Desinger";
+  }
 }
